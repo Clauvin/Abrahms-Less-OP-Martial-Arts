@@ -221,10 +221,11 @@
       {
         "id": "buff_evasiveaction_onmove",
         "name": "Evasive Action",
-        "description": "Moving doubles your dodge for 3 turns",
+        "description": "Moving multipliy your dodge by 1.5x for 3 turns",
+		    "skill_requirements": [ { "name": "dodge", "level": 3 } ],
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "mult_bonuses": [ { "stat": "dodge", "scale": 2 } ],
+        "mult_bonuses": [ { "stat": "dodge", "scale": 1.5 } ],
         "bonus_dodges": 1,
         "buff_duration": 3
       }
