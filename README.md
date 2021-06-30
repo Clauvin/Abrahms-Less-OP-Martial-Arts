@@ -7,7 +7,7 @@ I'm doing this, as mentioned before, for my personal use - this repo exists beca
 
 Being a mod made for personal use means that I don't have any intention of doing a complete rework of every single martial art style here - it's just that in the end of the day, I like the idea of different self-taught styles for survivors depending of which weapons they are using, but when you have a character with Bashing 2, Melee 2 and Evading 2, and he suddenly has 50+ Evading while using Bojutsu...
 
-...yeah, no, not my taste.
+...yeah, no, not my taste. So, I'm doing changes as they are interesting while I play with the mod.
 
 ## Plans
 
