@@ -19,7 +19,7 @@
           { "stat": "dodge", "scaling-stat": "dex", "scale": 1.25 },
           { "stat": "arpen", "type": "bash", "scale": 1.5 }
         ],
-        "flat_bonuses": [ { "stat": "block", "scale": 0.5 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 2 } ]
+        "flat_bonuses": [ { "stat": "block", "scale": 1 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 2 } ]
       },
       {
         "id": "buff_stafftraininglv1_static",
