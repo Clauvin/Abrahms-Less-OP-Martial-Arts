@@ -498,7 +498,7 @@
     "crit_ok": true,
     "mult_bonuses": [
       { "stat": "movecost", "scale": 0.0 },
-      { "stat": "damage", "type": "cut", "scale": 5 },
+      { "stat": "damage", "type": "bash", "scale": 1.5 },
       { "stat": "hit", "scale": 0.5 }
     ]
   },
@@ -508,7 +508,7 @@
     "name": "Counterattack",
     "messages": [ "You dodge, and stun %s with a weak blow", "<npcname> dodges, and stuns %s" ],
     "req_buffs": [ "buff_attackanddef_ondodge" ],
-    "skill_requirements": [ { "name": "bashing", "level": 2 } ],
+    "skill_requirements": [ { "name": "bashing", "level": 3 } ],
     "unarmed_allowed": true,
     "dodge_counter": true,
     "crit_ok": true,
