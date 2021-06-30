@@ -260,18 +260,6 @@
         "buff_duration": 1
       }
     ],
-    "onmiss_buffs": [
-      {
-        "id": "buff_staffdairyfarmer_onmiss",
-        "name": "You Fight Like A Dairy Farmer",
-        "description": "You fight like a dairy farmer!",
-        "unarmed_allowed": true,
-        "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ],
-        "flat_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.5 } ],
-        "bonus_dodges": 1,
-        "buff_duration": 2
-      }
-    ],
     "techniques": [
       "abstaff_block",
       "abstaff_spin",
