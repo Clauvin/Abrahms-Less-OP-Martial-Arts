@@ -15,9 +15,9 @@
         "melee_allowed": true,
         "bonus_dodges": 2,
         "mult_bonuses": [
-          { "stat": "block", "scaling-stat": "str", "scale": 2 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 2 },
-          { "stat": "arpen", "type": "bash", "scale": 2 }
+          { "stat": "block", "scaling-stat": "str", "scale": 1.5 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 1.25 },
+          { "stat": "arpen", "type": "bash", "scale": 1.5 }
         ],
         "flat_bonuses": [ { "stat": "block", "scale": 0.5 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 2 } ]
       },
