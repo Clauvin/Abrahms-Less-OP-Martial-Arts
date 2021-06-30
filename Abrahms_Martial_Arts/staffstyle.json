@@ -323,8 +323,8 @@
     "name": "Making Space",
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "skill_requirements": [ { "name": "bashing", "level": 2 } ],
-    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.75 }, { "stat": "hit", "scale": 5 } ],
+    "skill_requirements": [ { "name": "bashing", "level": 3 } ],
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.75 }, { "stat": "hit", "scale": 3 } ],
     "messages": [
       "You make some room by swinging at nearby enemies in a wide arc",
       "<npcname> swings at %s and nearby enemies in a wide arc"
