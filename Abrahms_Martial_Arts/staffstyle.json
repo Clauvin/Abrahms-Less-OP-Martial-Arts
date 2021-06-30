@@ -383,10 +383,10 @@
     "type": "technique",
     "name": "Sweep",
     "messages": [ "You hit %s in the back of the knees, knocking them down", "<npcname> knocks %s down with a hit to the knees" ],
-    "skill_requirements": [ { "name": "bashing", "level": 2 } ],
+    "skill_requirements": [ { "name": "bashing", "level": 4 } ],
     "unarmed_allowed": true,
     "weighting": 2,
-    "down_dur": 1,
+    "down_dur": 2
     "mult_bonuses": [ { "stat": "movecost", "scale": 0.75 } ]
   },
   {
