@@ -408,6 +408,7 @@
     "type": "technique",
     "name": "Overhand Strike",
     "messages": [ "You hit %s with a strong overhand strike", "<npcname> hits %s hard" ],
+    "skill_requirements": [ { "name": "bashing", "level": 3 }, { "name": "unarmed", "level": 4 } ],
     "melee_allowed": true,
     "crit_ok": true,
     "stun_dur": 2,
