@@ -255,8 +255,8 @@
           { "stat": "movecost", "scale": 0.25 }
         ],
         "flat_bonuses": [ { "stat": "dodge", "scale": 5 } ],
-        "bonus_dodges": 5,
-        "bonus_blocks": 5,
+        "bonus_dodges": 2,
+        "bonus_blocks": 2,
         "buff_duration": 1
       }
     ],
