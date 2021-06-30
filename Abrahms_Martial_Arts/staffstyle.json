@@ -11,13 +11,12 @@
       {
         "id": "buff_don_static",
         "name": "Donatello is the Don",
-        "description": "Offense and defense in one. Gives block, dodge, hit, and armor penetration bonuses.\n\n +2 Dodge attempts",
+        "description": "Offense and defense in one. Gives block, dodge and armor penetration bonuses.\n\n +2 Dodge attempts",
         "melee_allowed": true,
         "bonus_dodges": 2,
         "mult_bonuses": [
           { "stat": "block", "scaling-stat": "str", "scale": 2 },
           { "stat": "dodge", "scaling-stat": "dex", "scale": 2 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 2 },
           { "stat": "arpen", "type": "bash", "scale": 2 }
         ],
         "flat_bonuses": [ { "stat": "block", "scale": 0.5 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 2 } ]
