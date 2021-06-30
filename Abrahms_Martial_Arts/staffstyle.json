@@ -273,8 +273,6 @@
       }
     ],
     "techniques": [
-      "abstaff_cow",
-      "abstaff_annihilated",
       "abstaff_block",
       "abstaff_spin",
       "abstaff_makespace",
@@ -290,33 +288,12 @@
       "abstaff_jab",
       "abstaff_fancy",
       "abstaff_riposte",
-      "abstaff_pommel",
       "abstaff_elbow",
       "abstaff_counter",
       "abstaff_stuncounter",
       "abstaff_recovery",
       "abstaff_pushoff"
     ]
-  },
-  {
-    "id": "abstaff_cow",
-    "type": "technique",
-    "name": "You Fight Like A Cow",
-    "melee_allowed": true,
-    "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "mult_bonuses": [ { "stat": "hit", "scale": 1.2 } ],
-    "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
-    "description": "Miss recovery"
-  },
-  {
-    "id": "abstaff_annihilated",
-    "type": "technique",
-    "name": "Every Enemy Ive Met Ive Annihilated",
-    "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "skill_requirements": [ { "name": "bashing", "level": 10 } ],
-    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 99 }, { "stat": "hit", "scale": 99 } ],
-    "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
-    "description": "High-level miss recovery - One Hit Kill"
   },
   {
     "id": "abstaff_block",
@@ -509,22 +486,6 @@
       { "stat": "damage", "type": "bash", "scale": 1.2 },
       { "stat": "damage", "type": "cut", "scale": 1.2 },
       { "stat": "damage", "type": "stab", "scale": 1.2 }
-    ]
-  },
-  {
-    "id": "abstaff_pommel",
-    "type": "technique",
-    "name": "Pommel Strike",
-    "messages": [ "You smash %s in the face or equivalent anatomy", "<npcname> smashes %s in the face" ],
-    "skill_requirements": [ { "name": "bashing", "level": 3 } ],
-    "melee_allowed": true,
-    "crit_ok": true,
-    "dodge_counter": true,
-    "down_dur": 1,
-    "mult_bonuses": [
-      { "stat": "movecost", "scale": 0.0 },
-      { "stat": "damage", "type": "cut", "scale": 0 },
-      { "stat": "damage", "type": "stab", "scale": 0 }
     ]
   },
   {
