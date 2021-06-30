@@ -237,13 +237,7 @@
         "description": "Every attack gives you small defensive and offensive bonuses.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 }, { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 } ],
-        "mult_bonuses": [
-          { "stat": "movecost", "scale": 0.95 },
-          { "stat": "dodge", "scale": 1.2 },
-          { "stat": "hit", "scale": 1.2 },
-          { "stat": "damage", "type": "bash", "scale": 1.2 }
-        ],
+        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 }, { "stat": "hit", "scaling-stat": "dex", "scale": 0.2 } ],
         "bonus_dodges": 1,
         "max_stacks": 20,
         "buff_duration": 2
