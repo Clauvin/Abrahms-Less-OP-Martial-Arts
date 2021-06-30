@@ -247,11 +247,11 @@
       {
         "id": "buff_abstaffrest_onpause",
         "name": "Rest",
-        "description": "You pause to catch your breath. 5 + 5x dodge increase, bash damage reduced by 50 percent.",
+        "description": "You pause to catch your breath. 1.25x dodge increase, bash damage reduced by 75 percent.",
         "unarmed_allowed": true,
         "mult_bonuses": [
-          { "stat": "dodge", "scale": 5 },
-          { "stat": "damage", "type": "bash", "scale": 0.5 },
+          { "stat": "dodge", "scale": 1.25 },
+          { "stat": "damage", "type": "bash", "scale": 0.25 },
           { "stat": "movecost", "scale": 0.25 }
         ],
         "flat_bonuses": [ { "stat": "dodge", "scale": 5 } ],
