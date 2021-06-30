@@ -248,23 +248,7 @@
         "max_stacks": 20,
         "buff_duration": 2
       }
-    ],
-    "onkill_buffs": [
-      {
-        "id": "buff_onthemark_onkill",
-        "name": "On the mark",
-        "description": "Every kill makes you more badass.",
-        "unarmed_allowed": true,
-        "melee_allowed": true,
-        "flat_bonuses": [
-          { "stat": "hit", "scale": 1 },
-          { "stat": "damage", "type": "bash", "scale": 1 },
-          { "stat": "arpen", "type": "bash", "scale": 1 }
-        ],
-        "max_stacks": 99999,
-        "buff_duration": 5
-      }
-    ],
+    ]
     "onpause_buffs": [
       {
         "id": "buff_abstaffrest_onpause",
