@@ -541,8 +541,8 @@
     "block_counter": true,
     "crit_ok": true,
     "knockback_dist": 3,
-    "down_dur": 4,
-    "stun_dur": 5,
+    "down_dur": 5,
+    "stun_dur": 6,
     "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.5 } ]
   }
 ]
