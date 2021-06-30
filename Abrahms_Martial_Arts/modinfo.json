@@ -1,10 +1,10 @@
 [
   {
-    "id": "AbrahmsMA",
+    "id": "AbrahmsLessOPMA",
     "type": "MOD_INFO",
-    "name": "Abrahms OP Martial Arts",
-    "authors": [ "MrAbrahms" ],
-    "description": "These are quite OP unrefined weapon arts learned purely through experience.",
+    "name": "Abrahms Less OP Martial Arts",
+    "authors": [ "MrAbrahms", "BlueMage" ],
+    "description": "Abrahms OP Martial Arts, but less OP, made for BlueMage's personal use.",
     "category": "items",
     "dependencies": [ "dda" ]
   }
