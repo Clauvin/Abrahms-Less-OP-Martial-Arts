@@ -414,7 +414,7 @@
     "stun_dur": 2,
     "knockback_dist": 3,
     "down_dur": 2,
-    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 2.5 }, { "stat": "arpen", "type": "bash", "scale": 1.5 } ]
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.5 }, { "stat": "arpen", "type": "bash", "scale": 1.5 } ]
   },
   {
     "id": "abstaff_uhand",
