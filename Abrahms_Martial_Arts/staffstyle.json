@@ -312,7 +312,7 @@
     "melee_allowed": true,
     "skill_requirements": [ { "name": "bashing", "level": 4 } ],
     "crit_tec": true,
-    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.5 } ],
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.75 } ],
     "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
     "aoe": "spin",
     "description": "Attack adjacent enemies, crit only"
