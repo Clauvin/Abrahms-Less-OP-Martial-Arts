@@ -11,4 +11,4 @@ Being a mod made for personal use means that I don't have any intention of doing
 
 ## Plans
 
-Basically, to nerf martial styles through iteration until I'm confortable using them. I don't have an exact baseline of power for what I want to reach, but expect a fall from OP-tiers of power (as the mentioned Bojutsu above giving 50+ Evading and dealing 100+ damage with overhead strikes at Day 1).
+Basically, to nerf martial styles through iteration until I'm confortable using them. I don't have an exact baseline of power for what I want to reach, but expect a fall from OP-tiers of power (as the mentioned Bojutsu above giving 50+ Evading and dealing 100+ damage with overhead strikes to zombies at Day 1).
