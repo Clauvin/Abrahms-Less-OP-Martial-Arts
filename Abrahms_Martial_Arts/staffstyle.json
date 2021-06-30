@@ -343,7 +343,7 @@
     "crit_tec": true,
     "stun_dur": 1,
     "knockback_dist": 1,
-    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 5 } ],
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 2 } ],
     "messages": [ "You knock %s down with a brutal blow to the face.", "<npcname> knocks %s down" ],
     "description": "Stun 1 turn, knockback 1 tile, crit only"
   },
