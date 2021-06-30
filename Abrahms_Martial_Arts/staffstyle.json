@@ -528,7 +528,7 @@
     "dodge_counter": true,
     "crit_ok": true,
     "aoe": "spin",
-    "knockback_dist": 5,
+    "knockback_dist": 6,
     "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 0.5 } ]
   },
   {
