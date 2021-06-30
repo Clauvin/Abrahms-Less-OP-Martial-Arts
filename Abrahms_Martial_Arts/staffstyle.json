@@ -341,6 +341,7 @@
     "name": "Critical Strike",
     "unarmed_allowed": true,
     "melee_allowed": true,
+    "skill_requirements": [ { "name": "bashing", "level": 8 } ],
     "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 99 } ],
     "crit_tec": true,
     "weighting": -250,
