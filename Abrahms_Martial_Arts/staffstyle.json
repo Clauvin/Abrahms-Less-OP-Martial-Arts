@@ -412,8 +412,8 @@
     "melee_allowed": true,
     "crit_ok": true,
     "stun_dur": 2,
-    "knockback_dist": 2,
-    "down_dur": 1,
+    "knockback_dist": 3,
+    "down_dur": 2,
     "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 2.5 }, { "stat": "arpen", "type": "bash", "scale": 1.5 } ]
   },
   {
