@@ -374,7 +374,7 @@
     "type": "technique",
     "name": "Stomp",
     "messages": [ "You stomp on %s toe", "<npcname> stomps on %s toe" ],
-    "skill_requirements": [ { "name": "bashing", "level": 2 }, { "name": "melee", "level": 1 } ],
+    "skill_requirements": [ { "name": "bashing", "level": 2 }, { "name": "melee", "level": 2 } ],
     "unarmed_allowed": true,
     "down_dur": 1
   },
