@@ -242,7 +242,7 @@
         "max_stacks": 20,
         "buff_duration": 2
       }
-    ]
+    ],
     "onpause_buffs": [
       {
         "id": "buff_abstaffrest_onpause",
