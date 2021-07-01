@@ -1,11 +1,10 @@
 [
   {
+    "id": "AbrahmsLessOPMA",
     "type": "MOD_INFO",
-    "ident": "AbrahmsLessOPMA",
     "name": "Abrahms Less OP Martial Arts",
     "authors": [ "MrAbrahms", "Wanderer" ],
-    "maintainers": [ "Wanderer" ],
-    "description": "Abrahms OP Martial Arts, but less OP, made for Wanderer's personal use and shared for anyone interested",
+    "description": "Abrahms OP Martial Arts, but less OP, made for Wanderer's personal use.",
     "category": "items",
     "dependencies": [ "dda" ]
   }
