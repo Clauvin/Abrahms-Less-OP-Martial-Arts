@@ -1,5 +1,5 @@
 # Abrahms-Less-OP-Martial-Arts
-A less OP version of Abrahms OP Martial Arts mod for Cataclysm: Dark Days Ahead (https://github.com/CleverRaven/Cataclysm-DDA), for personal use but here in case anyone wants to fork this.
+A less OP version of Abrahms OP Martial Arts mod for Cataclysm: Dark Days Ahead, version 0.E-10010-gd821da4 (https://github.com/CleverRaven/Cataclysm-DDA), for personal use but here in case anyone wants to fork this.
 
 This repository has permission of Abrahms to exist and be forked.
 
@@ -17,8 +17,8 @@ So, I'm doing changes as they are interesting while I play with the mod. Feel fr
 
 Basically, to nerf martial styles through iteration until I'm confortable using them. I don't have an exact baseline of power for what I want to reach, but expect a fall from OP-tiers of power (as the mentioned Bojutsu above giving 50+ Evading and dealing 100+ damage with overhead strikes to zombies at Day 1).
 
-Currently I got a Great Knife on GMC by defeating a Nemesis, so the next target to nerf will be Knife Fighting.
+Currently I got a Great Knife on GMC by defeating a Nemesis, so the next target to nerf will be Knife Fighting (while I'm nerfing Bojutsu more).
 
 ## What Has Been Done Already
 
-* Bojutsu has been nerfed from "OP God Tier" of strength to, by now, "a bit OP Tier" - the style is now more defense focused, and lost a lot of its multiplier buffs, some of its extra buffs and techniques. Probably becomes OP at higher Bashing levels.
+* Bojutsu has been nerfed from "OP God Tier" of strength to, by now, "a bit OP Tier" - the style is now more defense focused, and lost a lot of its multiplier buffs, some of its extra buffs and techniques. Probably becomes OP at higher Bashing levels. Still have to be nerfed because of "The Best Defense Is A Good Offense" giving absurd amounts of dodging and hitting.
