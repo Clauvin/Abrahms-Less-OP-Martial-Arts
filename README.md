@@ -11,8 +11,14 @@ Being a mod made for personal use means that I don't have any intention of doing
 
 ...yeah, no, not my taste.
 
-So, I'm doing changes as they are interesting while I play with the mod.
+So, I'm doing changes as they are interesting while I play with the mod. Feel free to fork and do your changes - if they're interesting to me, I will add those to the mod.
 
 ## Plans
 
 Basically, to nerf martial styles through iteration until I'm confortable using them. I don't have an exact baseline of power for what I want to reach, but expect a fall from OP-tiers of power (as the mentioned Bojutsu above giving 50+ Evading and dealing 100+ damage with overhead strikes to zombies at Day 1).
+
+Currently I got a Great Knife on GMC, so the next target to nerf will be Knife Fighting.
+
+## What Has Been Done Already
+
+* Bojutsu has been nerfed from "OP God Tier" of strength to, by now, "a bit OP Tier" - the style is now more defense focused, and lost a lot of its multiplier buffs, some of its extra buffs and techniques. Probably becomes OP at higher Bashing levels.
