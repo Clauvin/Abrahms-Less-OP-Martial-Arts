@@ -3,8 +3,8 @@
     "id": "AbrahmsLessOPMA",
     "type": "MOD_INFO",
     "name": "Abrahms Less OP Martial Arts",
-    "authors": [ "MrAbrahms", "BlueMage" ],
-    "description": "Abrahms OP Martial Arts, but less OP, made for BlueMage's personal use.",
+    "authors": [ "MrAbrahms", "Wanderer" ],
+    "description": "Abrahms OP Martial Arts, but less OP, made for Wanderer's personal use.",
     "category": "items",
     "dependencies": [ "dda" ]
   }
