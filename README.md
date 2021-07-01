@@ -1,5 +1,5 @@
 # Abrahms-Less-OP-Martial-Arts
-With Abrahms' permission, a less OP version of Abrahms OP Martial Arts mod for Cataclysm: Dark Days Ahead (https://github.com/CleverRaven/Cataclysm-DDA), for personal use but here in case anyone wants to fork this.
+A less OP version of Abrahms OP Martial Arts mod for Cataclysm: Dark Days Ahead (https://github.com/CleverRaven/Cataclysm-DDA), for personal use but here in case anyone wants to fork this.
 
 This repository has permission of Abrahms to exist and be forked.
 
