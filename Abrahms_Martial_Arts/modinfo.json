@@ -4,7 +4,7 @@
     "ident": "AbrahmsLessOPMA",
     "name": "Abrahms Less OP Martial Arts",
     "authors": [ "MrAbrahms", "Wanderer" ],
-	  "maintainers": [ "Wanderer" ],
+    "maintainers": [ "Wanderer" ],
     "description": "Abrahms OP Martial Arts, but less OP, made for Wanderer's personal use and shared for anyone interested",
     "category": "items",
     "dependencies": [ "dda" ]
