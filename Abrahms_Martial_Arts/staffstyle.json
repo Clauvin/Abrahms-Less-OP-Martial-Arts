@@ -30,7 +30,7 @@
         "bonus_dodges": 1,
         "flat_bonuses": [ { "stat": "block", "scale": 0.5 }, { "stat": "dodge", "scale": 0.5 } ],
         "mult_bonuses": [
-          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "movecost", "scale": 0.9 }
         ]
       },
       {
@@ -43,7 +43,7 @@
         "flat_bonuses": [ { "stat": "block", "scale": 0.5 }, { "stat": "dodge", "scale": 0.75 } ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.9 },
-          { "stat": "dodge", "scale": 1.1 },
+          { "stat": "dodge", "scale": 1.1 }
         ]
       },
       {
