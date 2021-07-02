@@ -17,9 +17,9 @@ So, I'm doing changes as they are interesting while I play with the mod. Feel fr
 
 Basically, to nerf martial styles through iteration until I'm confortable using them. I don't have an exact baseline of power for what I want to reach, but expect a fall from OP-tiers of power (as the mentioned Bojutsu above giving 50+ Evading and dealing 100+ damage with overhead strikes to zombies at Day 1).
 
-Currently I got a Great Knife on GMC by defeating a Nemesis, so the next target to nerf will be Knife Fighting (while I'm nerfing Bojutsu more).
+Currently I got a Great Knife on GMC by defeating a Nemesis, so the next target to nerf will be Battoujutsu (my mistake here, I thought Knife Fighting would be the next but the great knife does not have piercing damage, so I don't have Piercing skills yet).
 
-Also, after a quick look to Battoujutsu, I'm tempted to rework the whole style for something with ok dodge skills... until the first hit, that should be very very strong but also leave the player with a huge damage and block debuff until he puts his sword back in the scabbard. (battoujutsu shouldn't be the whole of a fighting style but the survivor clearly did not know that...)
+After a quick look to Battoujutsu, I'm tempted to rework the whole style for something with ok dodge skills... until the first hit, that should be very very strong but also leave the player with a huge damage and block debuff until he puts his sword back in the scabbard. (battoujutsu shouldn't be the whole of a fighting style but the survivor clearly did not know that...) As I, with Cutting 1, Bashing 4 and Melee 3 manage to do 2k+ damage... yeah, a lot of debuffing will happen.
 
 ## What Has Been Done Already
 
