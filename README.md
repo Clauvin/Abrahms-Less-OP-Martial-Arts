@@ -21,4 +21,8 @@ Currently I got a Great Knife on GMC by defeating a Nemesis, so the next target 
 
 ## What Has Been Done Already
 
-* Bojutsu has been nerfed from "OP God Tier" of strength to, by now, "a bit OP Tier" - the style is now more defense focused, and lost a lot of its multiplier buffs, some of its extra buffs and techniques. Probably becomes OP at higher Bashing levels. Still have to be nerfed because of "The Best Defense Is A Good Offense" giving absurd amounts of dodging and hitting.
+* Bojutsu has been nerfed from "OP God Tier" of strength to, by now, strong with small letters - the style is now more defense focused, and lost a lot of its multiplier buffs, some of its extra buffs and techniques...
+...and "The Best Defense is A Good Offense" became "The Best Defense is a Good Defense, Duh" - it raises the player's dodging with each hit but also reduces the player's bashing damage by 0.1, scaled by Str, with each hit. This means that the player can't stay on the same place constantly attacking, or else he will be great on avoiding the hits but will deal almost no damage.
+Even after all the changes, this style probably becomes OP at higher Bashing levels. (haven't tested it yet)
+
+* Nothing on knife-fighting yet. Now that I know that I can give debuffs to the player, I'm tempted to use this on this style, or Blacksmith.
