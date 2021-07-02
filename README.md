@@ -19,6 +19,8 @@ Basically, to nerf martial styles through iteration until I'm confortable using 
 
 Currently I got a Great Knife on GMC by defeating a Nemesis, so the next target to nerf will be Knife Fighting (while I'm nerfing Bojutsu more).
 
+Also, after a quick look to Battoujutsu, I'm tempted to rework the whole style for something with ok dodge skills... until the first hit, that should be very very strong but also leave the player with a huge damage and block debuff until he puts his sword back in the scabbard.
+
 ## What Has Been Done Already
 
 * Bojutsu has been nerfed from "OP God Tier" of strength to, by now, strong with small letters - the style is now more defense focused, and lost a lot of its multiplier buffs, some of its extra buffs and techniques...
