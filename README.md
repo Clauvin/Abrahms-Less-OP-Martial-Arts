@@ -25,6 +25,6 @@ Currently I got a Great Knife on GMC by defeating a Nemesis, so the next target 
 
 ...and "The Best Defense is A Good Offense" became "The Best Defense is a Good Defense, Duh" - it raises the player's dodging with each hit but also reduces the player's bashing damage by 0.1, scaled by Str, with each hit. This means that the player can't stay on the same place constantly attacking, or else he will be great on avoiding the hits but will deal almost no damage.
 
-Even after all the changes, this style probably becomes OP at higher Bashing levels. (haven't tested it yet)
+Even after all the changes, this style probably becomes OP at higher Bashing levels. (haven't tested it yet with anything beyond Bashing 4)
 
 * Nothing on knife-fighting yet. Now that I know that I can give debuffs to the player, I'm tempted to use this on this style, or Blacksmith.
