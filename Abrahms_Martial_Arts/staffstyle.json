@@ -233,13 +233,14 @@
     "onattack_buffs": [
       {
         "id": "buff_bestdef_onattack",
-        "name": "The Best Defense Is A Good Offense",
-        "description": "Every attack gives you small defensive and offensive bonuses.",
+        "name": "The Best Defense Is A Good Defense, Duh",
+        "description": "Every attack gives you small defensive bonuses and small offensive penalities.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 }, { "stat": "hit", "scaling-stat": "dex", "scale": 0.2 } ],
-        "bonus_dodges": 1,
-        "max_stacks": 20,
+        "flat_bonuses": [ { "stat": "dodge", "scale": 0.2 },
+			  { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": -0.1 }
+			 ],
+        "max_stacks": 10,
         "buff_duration": 2
       }
     ],
