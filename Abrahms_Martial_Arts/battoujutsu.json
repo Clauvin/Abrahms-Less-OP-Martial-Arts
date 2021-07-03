@@ -1,25 +1,27 @@
 [
   {
-    "id": "style_battoujutsu",
+    "id": "style_self_taught_battoujutsu",
     "type": "martial_art",
-    "name": { "str": "Battoujutsu" },
-    "description": "Fast-draw assassination technique. \n\n Dex-based swordfighting style emphasizing accurate and powerful attacks. Large stacking bonuses to accuracy, cutting damage, armor penetration, and dodge, all based on dex. Becomes extremely OP after a while, as befits a yojinbo or street samurai.",
-    "initiate": [ "You brandish your sword.", "%s gets ready to slice and dice." ],
+    "name": { "str": "Self-Taught Battoujutsu" },
+    "description": "Fast-draw assassination technique... by someone self-taught who didn't thought about what to do after the fast-draw. \n\n Dex and Per-based swordfighting style emphasizing a single accurate and powerful attack, and then a fight to resheathe the sword back. Large stacking bonuses to accuracy, cutting damage, and armor penetration all based on Dex or Per.",
+    "initiate": [ "You prepare to unsheate in one single movement.", "%s gets ready to slice, dice and run." ],
     "autolearn": [ [ "cutting", "1" ] ],
     "allow_melee": true,
     "static_buffs": [
       {
         "id": "buff_ichimonji_static",
         "name": "Ichimonji no kamae",
-        "description": "You draw your sword  and enter your primary fighting stance.",
+        "description": "You prepare to draw when the moment is ready.",
         "melee_allowed": true,
-        "bonus_dodges": 1,
-        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 2 }, { "stat": "hit", "scaling-stat": "dex", "scale": 2 } ],
+        "flat_bonuses": [
+			{ "stat": "hit", "scaling-stat": "dex", "scale": 0.5 },
+			{ "stat": "hit", "scaling-stat": "per", "scale": 0.5 }
+		],
         "mult_bonuses": [
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.5 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.5 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.5 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.25 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.25 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.25 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.25 }
         ]
       },
       {
@@ -28,12 +30,14 @@
         "description": "Practise makes perfect.\n\n Boosts speed and cutting damage for every level of Cutting Weapons skill.",
         "skill_requirements": [ { "name": "cutting", "level": 1 } ],
         "melee_allowed": true,
-        "bonus_dodges": 1,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.25 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.25 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.25 },
           { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 }
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.1 }
         ]
       },
       {
@@ -42,12 +46,13 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 2 } ],
         "melee_allowed": true,
-        "bonus_dodges": 2,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.2 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.2 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.2 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 }
+        "flat_bonuses": [
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.1 }
         ]
       },
       {
@@ -56,12 +61,14 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "melee_allowed": true,
-        "bonus_dodges": 3,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.3 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.3 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.3 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.3 }
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.1 }
         ]
       },
       {
@@ -70,12 +77,14 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 4 } ],
         "melee_allowed": true,
-        "bonus_dodges": 4,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.4 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.4 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.4 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.4 }
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.1 }
         ]
       },
       {
@@ -84,12 +93,14 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 5 } ],
         "melee_allowed": true,
-        "bonus_dodges": 5,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.5 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.5 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.5 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.1 }
         ]
       },
       {
@@ -98,12 +109,14 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 6 } ],
         "melee_allowed": true,
-        "bonus_dodges": 6,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.6 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.6 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.6 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.6 }
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.1 }
         ]
       },
       {
@@ -112,12 +125,14 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 7 } ],
         "melee_allowed": true,
-        "bonus_dodges": 7,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.7 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.7 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.7 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.7 }
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.3 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.3 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.3 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.3 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.3 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.3 }
         ]
       },
       {
@@ -126,12 +141,14 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 8 } ],
         "melee_allowed": true,
-        "bonus_dodges": 8,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.8 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.8 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.8 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.8 }
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.3 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.3 },		
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.3 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.3 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.3 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.3 }
         ]
       },
       {
@@ -140,12 +157,14 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 9 } ],
         "melee_allowed": true,
-        "bonus_dodges": 9,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.9 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.9 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.9 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.9 }
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+		  { "stat": "hit", "scaling-stat": "dex", "scale": 0.5 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.5 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.5 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.5 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.5 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.5 }
         ]
       },
       {
@@ -154,113 +173,40 @@
         "description": "Practise makes perfect.",
         "skill_requirements": [ { "name": "cutting", "level": 10 } ],
         "melee_allowed": true,
-        "bonus_dodges": 10,
-        "mult_bonuses": [
+        "bonus_blocks": 1,
+        "flat_bonuses": [
+		  { "stat": "hit", "scaling-stat": "dex", "scale": 1 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 1 },
           { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 1 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 1 },
           { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 1 }
-        ]
-      },
-      {
-        "id": "buff_traininglv11_static",
-        "name": "Level 11 assassination training",
-        "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 11 } ],
-        "melee_allowed": true,
-        "bonus_dodges": 11,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1.1 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 1.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 1.1 }
-        ]
-      },
-      {
-        "id": "buff_traininglv12_static",
-        "name": "Level 12 assassination training",
-        "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 12 } ],
-        "melee_allowed": true,
-        "bonus_dodges": 12,
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 3 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 3 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 3 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 3 }
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 1 }
         ]
       }
     ],
     "onhit_buffs": [
-      {
-        "id": "buff_training_onhit",
-        "name": "Muscle Memory",
-        "description": "Every successful hit gives you a small temporary improvement which stacks.",
-        "unarmed_allowed": true,
-        "skill_requirements": [ { "name": "cutting", "level": 3 } ],
-        "max_stacks": 99999,
-        "buff_duration": 3,
-        "bonus_dodges": 3,
-        "flat_bonuses": [
-          { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "damage", "type": "stab", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 }
-        ],
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 }
-        ]
-      }
+      
     ],
     "ongethit_buffs": [
-      {
-        "id": "buff_toughen_ongethit",
-        "name": "What doesn't kill you...",
-        "description": "makes you stronger.",
-        "unarmed_allowed": true,
-        "melee_allowed": true,
-        "max_stacks": 99999,
-        "buff_duration": 3,
-        "bonus_dodges": 3,
-        "flat_bonuses": [
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 2 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 }
-        ],
-        "mult_bonuses": [
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 }
-        ]
-      }
+      
     ],
     "onattack_buffs": [
       {
-        "id": "buff_tameshigiri_onattack",
-        "name": "Tameshigiri",
-        "description": "Every attack improves your technique.",
+        "id": "debuff_unsheated_blade",
+        "name": "Unsheated Blade",
+        "description": "A kenjutsu practicioner would know how to fight in this situation. Sadly, you are not, and sheating your blade takes longer than intended...",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "max_stacks": 99999,
-        "buff_duration": 3,
-        "bonus_dodges": 3,
-        "flat_bonuses": [
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 2 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 }
-        ],
+        "max_stacks": 10,
+        "buff_duration": 15,
+        "bonus_dodges": 2,
+		"flat_bonuses": [
+	      
+		],
         "mult_bonuses": [
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 }
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
+		  { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": -2 }
         ]
       }
     ],
@@ -271,20 +217,14 @@
         "description": "You deflect the enemy's attack to open a hole in their defenses.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "max_stacks": 99999,
-        "buff_duration": 4,
-        "bonus_dodges": 3,
+        "max_stacks": 10,
+        "buff_duration": 5,
+        "bonus_blocks": 1,
         "flat_bonuses": [
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 2 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 }
-        ],
-        "mult_bonuses": [
           { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.1 },
           { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 }
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.1 }
         ]
       }
     ],
@@ -295,9 +235,8 @@
         "description": "You steel yourself with a brief hand meditation as the enemy approaches.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "max_stacks": 99999,
-        "buff_duration": 4,
-        "bonus_dodges": 3,
+        "max_stacks": 10,
+        "buff_duration": 1,
         "flat_bonuses": [
           { "stat": "dodge", "scaling-stat": "dex", "scale": 2 },
           { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
@@ -312,29 +251,6 @@
         ]
       }
     ],
-    "oncrit_buffs": [
-      {
-        "id": "buff_heavycrittraining_oncrit",
-        "name": "Muscle Augmentation",
-        "description": "Every critical hit gives you a small temporary improvement which stacks.",
-        "unarmed_allowed": true,
-        "max_stacks": 99999,
-        "buff_duration": 4,
-        "bonus_dodges": 3,
-        "flat_bonuses": [
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 2 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 2 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1 }
-        ],
-        "mult_bonuses": [
-          { "stat": "hit", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
-        ]
-      }
-    ],
     "onmove_buffs": [
       {
         "id": "buff_heavycharge_onmove",
@@ -342,9 +258,9 @@
         "description": "You reposition yourself to find a tactical advantage.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "max_stacks": 99999,
-        "buff_duration": 3,
-        "bonus_dodges": 3,
+        "max_stacks": 10,
+        "buff_duration": 2,
+        "bonus_dodges": 2,
         "flat_bonuses": [
           { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 },
           { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
@@ -360,98 +276,44 @@
       }
     ],
     "onkill_buffs": [
-      {
-        "id": "buff_onthemark_onkill",
-        "name": "Kubikiri",
-        "description": "Every kill makes you more badass.",
-        "unarmed_allowed": true,
-        "melee_allowed": true,
-        "flat_bonuses": [
-          { "stat": "hit", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 1 }
-        ],
-        "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 1 }
-        ],
-        "bonus_dodges": 3,
-        "max_stacks": 99999,
-        "buff_duration": 5
-      }
-    ],
-    "onmiss_buffs": [
-      {
-        "id": "buff_dairyfarmer_onmiss",
-        "name": "You Fight Like A Dairy Farmer",
-        "description": "You fight like a dairy farmer!",
-        "unarmed_allowed": true,
-        "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "damage", "type": "cut", "scale": 1.5 } ],
-        "bonus_dodges": 1,
-        "buff_duration": 2
-      }
     ],
     "techniques": [
-      "absword_cow",
-      "absword_annihilated",
       "absword_block",
+	  "absword_iai_strike",
       "absword_spin",
       "absword_impale",
-      "absword_brutal",
-      "absword_criticalblow",
-      "absword_feint",
-      "absword_break",
-      "absword_stomp",
-      "absword_kneesweep",
       "absword_lunge",
       "absword_riposte",
-      "absword_pommel",
-      "absword_elbow",
       "absword_counter"
     ]
   },
   {
-    "id": "absword_cow",
-    "type": "technique",
-    "name": "You Fight Like A Cow",
-    "melee_allowed": true,
-    "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "mult_bonuses": [
-      { "stat": "hit", "scaling-stat": "dex", "scale": 1.2 },
-      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1.2 }
-    ],
-    "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
-    "description": "Miss recovery"
-  },
-  {
-    "id": "absword_annihilated",
-    "type": "technique",
-    "name": "Every Enemy Ive Met Ive Annihilated",
-    "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "skill_requirements": [ { "name": "cutting", "level": 10 } ],
-    "mult_bonuses": [
-      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 99 },
-      { "stat": "hit", "scaling-stat": "dex", "scale": 99 }
-    ],
-    "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
-    "description": "High-level miss recovery - One Hit Kill"
-  },
-  {
     "id": "absword_block",
     "type": "technique",
-    "name": "Block",
-    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "block", "scale": 0.5 } ],
-    "messages": [ "You block %s", "<npcname> blocks %s" ],
-    "description": "Medium blocking ability"
+    "name": "Scabbard Block",
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "block", "scale": 0.25 } ],
+    "messages": [ "You block %s with your scabbard", "<npcname> scabbard blocks %s" ],
+    "description": "Weak blocking ability"
+  },
+  {
+    "id": "absword_iai_strike",
+    "type": "technique",
+    "name": "Iai Strike",
+    "melee_allowed": true,
+    "crit_ok": true,
+    "messages": [ "You draw and cut %s in a swift move", "<npcname> swiftly draw and slashes %s" ],
+    "aoe": "spin",
+    "description": "A swift and deadly cut. Experts would tell that it's a very flawed technique as the user is overexpending energy and movement, which will leave him vulnerable for a while.",
+	"mult_bonuses": [
+      { "stat": "movecost", "scale": 0.8 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1.5 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 1.5 }
+    ]
   },
   {
     "id": "absword_spin",
     "type": "technique",
     "name": "Spinning Strike",
-    "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "cutting", "level": 4 } ],
     "crit_tec": true,
@@ -469,72 +331,6 @@
     "messages": [ "You pierce straight through %s", "<npcname> pierces through %s" ],
     "aoe": "impale",
     "description": "Attack target and another one behind it, crit only, min 6 cutting"
-  },
-  {
-    "id": "absword_brutal",
-    "type": "technique",
-    "name": "Brutal Strike",
-    "unarmed_allowed": true,
-    "melee_allowed": true,
-    "skill_requirements": [ { "name": "cutting", "level": 5 } ],
-    "crit_tec": true,
-    "stun_dur": 1,
-    "knockback_dist": 1,
-    "messages": [ "You knock %s down with a brutal blow to the face.", "<npcname> knocks %s down" ],
-    "description": "Stun 1 turn, knockback 1 tile, crit only"
-  },
-  {
-    "id": "absword_criticalblow",
-    "type": "technique",
-    "name": "Critical Strike",
-    "unarmed_allowed": true,
-    "melee_allowed": true,
-    "mult_bonuses": [ { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 99 } ],
-    "crit_tec": true,
-    "weighting": -250,
-    "messages": [ "You slice %s through the heart or physiological equivalent", "<npcname> slices through %s" ],
-    "description": "Cut damage multiplied by dex * 99, crit only"
-  },
-  {
-    "id": "absword_feint",
-    "type": "technique",
-    "name": "Feint",
-    "skill_requirements": [ { "name": "cutting", "level": 2 } ],
-    "unarmed_allowed": true,
-    "melee_allowed": true,
-    "defensive": true,
-    "miss_recovery": true,
-    "messages": [ "You feint at %s.", "<npcname> feints at %s." ]
-  },
-  {
-    "id": "absword_break",
-    "type": "technique",
-    "name": "Grab Break",
-    "unarmed_allowed": true,
-    "melee_allowed": true,
-    "defensive": true,
-    "grab_break": true,
-    "messages": [ "The %s tries to grab you, but you break its grab!", "The %s tries to grab <npcname>, but they break its grab!" ]
-  },
-  {
-    "id": "absword_stomp",
-    "type": "technique",
-    "name": "Stomp",
-    "messages": [ "You stomp on %s toe", "<npcname> stomps on %s toe" ],
-    "skill_requirements": [ { "name": "cutting", "level": 2 }, { "name": "melee", "level": 1 } ],
-    "unarmed_allowed": true,
-    "down_dur": 1
-  },
-  {
-    "id": "absword_kneesweep",
-    "type": "technique",
-    "name": "Sweep Kick",
-    "messages": [ "You hit %s in the back of the knees, knocking them down", "<npcname> knocks %s down with a hit to the knees" ],
-    "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
-    "unarmed_allowed": true,
-    "weighting": 2,
-    "down_dur": 1,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 0.75 } ]
   },
   {
     "id": "absword_lunge",
@@ -568,45 +364,17 @@
     ]
   },
   {
-    "id": "absword_pommel",
-    "type": "technique",
-    "name": "Pommel Strike",
-    "messages": [ "You smash %s in the face with your pommel", "<npcname> smashes %s in the face" ],
-    "skill_requirements": [ { "name": "cutting", "level": 3 } ],
-    "melee_allowed": true,
-    "crit_ok": true,
-    "dodge_counter": true,
-    "down_dur": 1,
-    "mult_bonuses": [
-      { "stat": "movecost", "scale": 0.0 },
-      { "stat": "damage", "type": "cut", "scale": 0 },
-      { "stat": "damage", "type": "stab", "scale": 0 },
-      { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 2 }
-    ]
-  },
-  {
-    "id": "absword_elbow",
-    "type": "technique",
-    "name": "Elbow Strike",
-    "messages": [ "You slam your elbow into %s", "<npcname> slams their elbow into %s" ],
-    "skill_requirements": [ { "name": "unarmed", "level": 1 } ],
-    "unarmed_allowed": true,
-    "crit_tec": true,
-    "stun_dur": 1,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 0.5 }, { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 1.5 } ]
-  },
-  {
     "id": "absword_counter",
     "type": "technique",
     "name": "Counterattack",
     "messages": [ "You dodge, and swing wildly at %s with a mighty blow", "<npcname> dodges, and hits %s hard" ],
-    "unarmed_allowed": true,
     "dodge_counter": true,
     "crit_ok": true,
     "mult_bonuses": [
       { "stat": "movecost", "scale": 0.0 },
-      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 5 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 2 },
       { "stat": "hit", "scale": 0.5 }
     ]
   }
 ]
+
