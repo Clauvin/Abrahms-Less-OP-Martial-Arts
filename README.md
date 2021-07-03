@@ -23,10 +23,10 @@ After a quick look to Battoujutsu, I'm tempted to rework the whole style for som
 
 * Bojutsu has been nerfed from "OP God Tier" of strength to, by now, strong with small letters - the style is now more defense focused, and lost a lot of its multiplier buffs, some of its extra buffs and techniques...
 
-...and "The Best Defense is A Good Offense" became "The Best Defense is a Good Defense, Duh" - it raises the player's dodging with each hit but also reduces the player's bashing damage by 0.1, scaled by Str, with each hit. This means that the player can't stay on the same place constantly attacking, or else he will be great on avoiding the hits but will deal almost no damage.
+...and "The Best Defense is A Good Offense" became _"The Best Defense is a Good Defense, Duh"_ - it raises the player's dodging with each hit but also reduces the player's bashing damage by 0.1, scaled by Str, with each hit. This means that the player can't stay on the same place constantly attacking, or else he will be great on avoiding the hits but will deal almost no damage.
 
 Even after all the changes, this style probably becomes OP at higher Bashing levels. (haven't tested it yet with anything beyond Bashing 4)
 
-* Battoujutsu became Self-Taught Battoujutsu, a Dex and Per based style focused on dealing as running toward the enemy or waiting it come, then dealing as much damage as possible with the first strike... and then running for your life as the Unsheated Blade debuff kicks in and all your cut damage gets a severe nerf for a good while.
+* Battoujutsu became _Self-Taught Battoujutsu_, a Dex and Per based style focused on dealing as running toward the enemy or waiting it come, then dealing as much damage as possible with the first strike... and then running for your life as the _Unsheated Blade_ debuff kicks in and all your cut damage gets a severe nerf for a good while.
 
 I'm still working on it: things to consider are if all damage should be nerfed by Unsheated Blade or only cut damage, and if the style will be fully focused on one strike or if the survivor should have some very basic hand-to-hand stun techniques to defend himself until Unsheated Blade is over.
