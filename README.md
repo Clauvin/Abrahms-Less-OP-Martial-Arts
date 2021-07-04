@@ -27,4 +27,4 @@ Even after all the changes, this style probably becomes OP at higher Bashing lev
 
 * Battoujutsu became _Self-Taught Battoujutsu_, a Dex and Per based style focused on dealing as running toward the enemy or waiting it come, then dealing as much damage as possible with the first strike... and then running for your life as the _Unsheated Blade_ debuff kicks in and all your cut damage gets a severe nerf for a good while.
 
-I'm still working on it: things to consider are if all damage should be nerfed by Unsheated Blade or only cut damage, and if the style will be fully focused on one strike or if the survivor should have some very basic hand-to-hand stun techniques to defend himself until Unsheated Blade is over.
+I'm still considering if all damage should be nerfed by Unsheated Blade or only cut damage.
