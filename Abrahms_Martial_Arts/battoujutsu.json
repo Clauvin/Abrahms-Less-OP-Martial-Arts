@@ -251,16 +251,24 @@
         "buff_duration": 2,
         "bonus_dodges": 2,
         "flat_bonuses": [
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.2 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 }
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 1 },
+		  { "stat": "dodge", "scaling-stat": "per", "scale": 1 },
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.15 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.15 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
+		   { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.05 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.05 }
         ],
         "mult_bonuses": [
-          { "stat": "hit", "scaling-stat": "dex", "scale": 1 },
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 }
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "hit", "scaling-stat": "per", "scale": 0.1 },
+          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.05 },
+		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.05 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.05 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.05 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.05 },
+		  { "stat": "dodge", "scaling-stat": "per", "scale": 0.05 }
         ]
       }
     ],
