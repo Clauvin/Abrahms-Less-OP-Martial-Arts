@@ -282,12 +282,12 @@
     ],
     "onkill_buffs": [
     ],
-    "techniques": [
+   "techniques": [
       "absword_block",
       "absword_iai_strike",
       "absword_spin",
-      "absword_impale",
-      "absword_lunge",
+      "absword_double_strike",
+      "absword_dual_step",
       "absword_riposte",
       "absword_counter"
     ]
@@ -310,7 +310,7 @@
     "aoe": "spin",
     "description": "A swift and deadly cut. Experts would tell that it's a very flawed technique as the user is overexpending energy and movement, which will leave him vulnerable for a while.",
 	"mult_bonuses": [
-      { "stat": "movecost", "scale": 0.8 },
+      { "stat": "movecost", "scale": 0.7 },
       { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1.5 },
       { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 1.5 }
     ]
@@ -318,37 +318,47 @@
   {
     "id": "absword_spin",
     "type": "technique",
-    "name": "Spinning Strike",
+    "name": "Circular Iai Strike",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "cutting", "level": 4 } ],
     "crit_tec": true,
     "messages": [ "You slash %s and nearby enemies", "<npcname> slashes %s and everyone nearby" ],
     "aoe": "spin",
-    "description": "Attack adjacent enemies, crit only, min 4 cutting"
+    "description": "An improved but a bit weaker version of Iai Strike. On critical hits, hits all enemies around you.",
+	"mult_bonuses": [
+      { "stat": "movecost", "scale": 0.7 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 1 }
+    ]
   },
   {
-    "id": "absword_impale",
+    "id": "absword_double_strike",
     "type": "technique",
-    "name": "Impaling Strike",
+    "name": "Double Iai Strike",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "cutting", "level": 6 } ],
     "crit_tec": true,
-    "messages": [ "You pierce straight through %s", "<npcname> pierces through %s" ],
+    "messages": [ "You go straight through %s", "<npcname> goes through %s" ],
     "aoe": "impale",
-    "description": "Attack target and another one behind it, crit only, min 6 cutting"
+    "description": "Cuts through the target and the enemy behind him, only on critical hits.",
+	"mult_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 2 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 2 }
+    ]
   },
   {
-    "id": "absword_lunge",
+    "id": "absword_dual_step",
     "type": "technique",
-    "name": "Sword Lunge",
-    "messages": [ "You lunge at %s", "<npcname> lunges at %s" ],
-    "skill_requirements": [ { "name": "cutting", "level": 2 } ],
+    "name": "Dual Step Iai Strike",
     "melee_allowed": true,
-    "crit_ok": true,
-    "mult_bonuses": [
-      { "stat": "movecost", "scale": 0.8 },
-      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1.5 },
-      { "stat": "damage", "type": "stab", "scaling-stat": "dex", "scale": 2 }
+    "skill_requirements": [ { "name": "cutting", "level": 8 } ],
+    "crit_tec": true,
+    "messages": [ "You walk forward, draws and obliterate %s", "<npcname> call's a dragon's wind upon %s" ],
+    "description": "An iai strike with one extra step that gives a ton of extra strength to it.",
+	"mult_bonuses": [
+	  { "stat": "movecost", "scale": 0.5 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 4 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 4 }
     ]
   },
   {
@@ -377,9 +387,11 @@
     "crit_ok": true,
     "mult_bonuses": [
       { "stat": "movecost", "scale": 0.0 },
-      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 2 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1 },
+	  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 1 },
       { "stat": "hit", "scale": 0.5 }
     ]
   }
 ]
+
 
