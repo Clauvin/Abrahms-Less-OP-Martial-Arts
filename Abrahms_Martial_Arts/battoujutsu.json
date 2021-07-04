@@ -356,7 +356,7 @@
     "messages": [ "You walk forward, draws and obliterate %s", "<npcname> call's a dragon's wind upon %s" ],
     "description": "An iai strike with one extra step that gives a ton of extra strength to it.",
 	"mult_bonuses": [
-	  { "stat": "movecost", "scale": 0.5 },
+      { "stat": "movecost", "scale": 0.5 },
       { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 4 },
       { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 4 }
     ]
@@ -388,7 +388,7 @@
     "mult_bonuses": [
       { "stat": "movecost", "scale": 0.0 },
       { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 1 },
-	  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 1 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 1 },
       { "stat": "hit", "scale": 0.5 }
     ]
   }
