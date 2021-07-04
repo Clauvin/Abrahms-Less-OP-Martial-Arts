@@ -194,8 +194,13 @@
         "bonus_dodges": 2,
         "mult_bonuses": [
           { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
-		  { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
-		  { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": -2 }
+	  { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
+	  { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": -2 },
+	  { "stat": "damage", "type": "bash", "scaling-stat": "per", "scale": 2 },
+	  { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": -2 },
+	  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 2 },
+	  { "stat": "damage", "type": "stab", "scaling-stat": "dex", "scale": -2 },
+	  { "stat": "damage", "type": "stab", "scaling-stat": "per", "scale": 2 }
         ]
       }
     ],
