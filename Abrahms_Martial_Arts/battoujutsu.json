@@ -14,12 +14,10 @@
         "description": "You prepare to draw when the moment is ready.",
         "melee_allowed": true,
         "flat_bonuses": [
-			{ "stat": "hit", "scaling-stat": "dex", "scale": 0.5 },
-			{ "stat": "hit", "scaling-stat": "per", "scale": 0.5 }
+			{ "stat": "hit", "scaling-stat": "dex", "scale": 1 },
+			{ "stat": "hit", "scaling-stat": "per", "scale": 1 }
 		],
         "mult_bonuses": [
-          { "stat": "damage", "type": "cut", "scaling-stat": "dex", "scale": 0.25 },
-		  { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.25 },
           { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.25 },
 		  { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 0.25 }
         ]
@@ -184,12 +182,6 @@
         ]
       }
     ],
-    "onhit_buffs": [
-      
-    ],
-    "ongethit_buffs": [
-      
-    ],
     "onattack_buffs": [
       {
         "id": "debuff_unsheated_blade",
@@ -200,9 +192,6 @@
         "max_stacks": 10,
         "buff_duration": 15,
         "bonus_dodges": 2,
-		"flat_bonuses": [
-	      
-		],
         "mult_bonuses": [
           { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
 		  { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
@@ -279,7 +268,7 @@
     ],
     "techniques": [
       "absword_block",
-	  "absword_iai_strike",
+      "absword_iai_strike",
       "absword_spin",
       "absword_impale",
       "absword_lunge",
