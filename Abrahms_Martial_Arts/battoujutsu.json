@@ -280,8 +280,6 @@
         ]
       }
     ],
-    "onkill_buffs": [
-    ],
    "techniques": [
       "absword_block",
       "absword_iai_strike",
