@@ -3,7 +3,7 @@
     "id": "style_self_taught_battoujutsu",
     "type": "martial_art",
     "name": { "str": "Self-Taught Battoujutsu" },
-    "description": "Fast-draw assassination technique... by someone self-taught who didn't thought about what to do after the fast-draw. \n\n Dex and Per-based swordfighting style emphasizing a single accurate and powerful attack, and then a fight to resheathe the sword back. Large stacking bonuses to accuracy, cutting damage, and armor penetration all based on Dex or Per.",
+    "description": "Fast-draw assassination technique... by someone self-taught who didn't thought about what to do after the fast-draw. \n\n Dex and Per-based swordfighting style emphasizing a single accurate and powerful attack, and then a fight to resheathe the sword back. Large stacking bonuses to accuracy, cutting damage, and armor penetration.",
     "initiate": [ "You prepare to unsheate in one single movement.", "%s gets ready to slice, dice and run." ],
     "autolearn": [ [ "cutting", "1" ] ],
     "allow_melee": true,
