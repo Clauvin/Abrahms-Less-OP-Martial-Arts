@@ -392,13 +392,10 @@
       "abknife_throat",
       "abknife_eye",
       "abknife_throatstab",
-      "absword_feint",
-      "absword_break",
-      "absword_stomp",
-      "absword_kneesweep",
-      "absword_riposte",
-      "absword_pommel",
-      "absword_counter"
+      "abknife_feint",
+      "abknife_break",
+      "abknife_kneesweep",
+      "abknife_counter"
     ]
   },
   {
