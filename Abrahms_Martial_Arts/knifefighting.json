@@ -250,7 +250,7 @@
         "flat_bonuses": [
           { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 },
           { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
-		  { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.25 }
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.25 },
           { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.25 }
         ],
         "mult_bonuses": [
@@ -305,7 +305,7 @@
         "bonus_dodges": 1,
         "flat_bonuses": [
           { "stat": "dodge", "scale": 0.2 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 }
         ],
         "mult_bonuses": [ { "stat": "dodge", "scale": 1.2 } ],
         "max_stacks": 5,
@@ -323,7 +323,7 @@
         "unarmed_allowed": true,
         "melee_allowed": true,
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
-        "flat_bonuses": [ { "stat": "dodge", "scale": 99 },
+        "flat_bonuses": [ { "stat": "dodge", "scale": 99 } ],
         "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "dodge", "scale": 99 } ],
         "bonus_dodges": 1,
         "buff_duration": 1
