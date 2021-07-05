@@ -330,20 +330,7 @@
       }
     ],
     "onkill_buffs": [
-      {
-        "id": "buff_onthemark_onkill",
-        "name": "On the mark",
-        "description": "Every kill makes you more badass.",
-        "unarmed_allowed": true,
-        "melee_allowed": true,
-        "flat_bonuses": [
-          { "stat": "hit", "scale": 1 },
-          { "stat": "damage", "type": "stab", "scale": 1 },
-          { "stat": "arpen", "type": "stab", "scale": 1 }
-        ],
-        "max_stacks": 99999,
-        "buff_duration": 5
-      }
+     
     ],
     "techniques": [
 	  "abknife_criticaljab",
