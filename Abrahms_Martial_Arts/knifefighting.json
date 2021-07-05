@@ -247,24 +247,18 @@
         "name": "Roll For Initiative",
         "description": "Small stacking bonuses on every attack.",
         "melee_allowed": true,
-        "bonus_dodges": 3,
         "flat_bonuses": [
-          { "stat": "dodge", "scale": 1 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
-          { "stat": "hit", "scale": 1 },
-          { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
-          { "stat": "movecost", "scale": -0.1 },
-          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 },
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+		  { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 0.25 }
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.25 }
         ],
         "mult_bonuses": [
-          { "stat": "dodge", "scale": 1.5 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 },
-          { "stat": "arpen", "type": "cut", "scale": 1.25 },
-          { "stat": "arpen", "type": "stab", "scale": 1.25 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 },
           { "stat": "movecost", "scale": 0.95 }
         ],
-        "max_stacks": 99,
-        "buff_duration": 99
+        "max_stacks": 13,
+        "buff_duration": 4
       }
     ],
     "onhit_buffs": [
