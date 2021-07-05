@@ -3,7 +3,7 @@
     "id": "style_knifefighting",
     "type": "martial_art",
     "name": { "str": "Knifefighting" },
-    "description": "You pull out a knife and prepare to butcher your enemy.\n\n Based on Piercing Weapons skill, focuses on fast attacks, dodging, debuffing and high armor penetration. Weaknesses of the style are stamina cost and low damage per hit, and greater dependence on stats, primarily dex. A classic thief/rogue/assassin style. ",
+    "description": "You pull out a knife and prepare to butcher your enemy.\n\n Based on Piercing Weapons skill, focuses on fast attacks, dodging, debuffing, a bit of extra speed and high armor penetration. Weaknesses of the style are stamina cost and low damage per hit, and greater dependence on stats, primarily dex. A classic thief/rogue/assassin style. ",
     "initiate": [ "You hold your knife out in front of you.", "%s gets ready to make em bleed." ],
     "autolearn": [ [ "stabbing", "1" ] ],
     "allow_melee": true,
@@ -16,14 +16,12 @@
         "bonus_dodges": 2,
         "flat_bonuses": [
           { "stat": "dodge", "scale": 2 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
           { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
         ],
         "mult_bonuses": [
-          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "movecost", "scale": 0.9 },
           { "stat": "arpen", "type": "stab", "scale": 1.5 },
           { "stat": "arpen", "type": "cut", "scale": 1.5 },
-          { "stat": "dodge", "scale": 2 }
         ]
       },
       {
@@ -39,8 +37,7 @@
           { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
         ],
         "mult_bonuses": [
-          { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "movecost", "scale": 0.9 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -59,7 +56,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -78,7 +74,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -97,7 +92,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -116,7 +110,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -135,7 +128,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -154,7 +146,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -173,7 +164,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -192,7 +182,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -211,7 +200,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -230,7 +218,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 1.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
@@ -249,7 +236,6 @@
         ],
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.8 },
-          { "stat": "dodge", "scale": 2.5 },
           { "stat": "damage", "type": "cut", "scale": 1.05 },
           { "stat": "arpen", "type": "cut", "scale": 1.2 }
         ]
