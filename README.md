@@ -17,7 +17,9 @@ So, _I'm doing changes as they are interesting while I play with the mod_. Feel 
 
 Basically, to nerf martial styles through iteration until I'm confortable using them. I don't have an exact baseline of power for what I want to reach, but expect a fall from OP-tiers of power (as the mentioned Bojutsu above giving 50+ Evading and dealing 100+ damage with overhead strikes to zombies at Day 1, or Battoujutsu dealing 2k damage).
 
-Next (probable) style to work on: Knifefighting. Also, Battoujutsu needs extra debuffs to counter OnMove and OnPause buffs while Unsheated Blade is active.
+Next style to work on: Knifefighting. Surprisingly, it does not have huge damage in terms of OPness, compared with other styles tweaked so far! But it can reach 100+ Dodging. So, yeah, nerfs ahead.
+
+ Also, Battoujutsu needs extra debuffs to counter OnMove and OnPause buffs while Unsheated Blade is active.
 
 ## What Has Been Done Already
 
