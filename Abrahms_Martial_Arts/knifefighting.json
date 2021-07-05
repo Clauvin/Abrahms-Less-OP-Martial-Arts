@@ -384,11 +384,6 @@
       }
     ],
     "techniques": [
-      "absword_block",
-      "absword_spin",
-      "absword_impale",
-      "absword_brutal",
-      "absword_criticalblow",
       "abknife_finisher",
       "abknife_slash",
       "abknife_stab",
