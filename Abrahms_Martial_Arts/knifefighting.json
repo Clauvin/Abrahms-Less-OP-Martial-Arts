@@ -383,25 +383,7 @@
         "buff_duration": 5
       }
     ],
-    "onmiss_buffs": [
-      {
-        "id": "buff_dairyfarmer_onmiss",
-        "name": "You Fight Like A Dairy Farmer",
-        "description": "You fight like a dairy farmer!",
-        "unarmed_allowed": true,
-        "mult_bonuses": [
-          { "stat": "movecost", "scale": 0.0 },
-          { "stat": "dodge", "scale": 2 },
-          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
-        ],
-        "flat_bonuses": [ { "stat": "damage", "type": "cut", "scale": 5 }, { "stat": "damage", "type": "stab", "scale": 5 } ],
-        "bonus_dodges": 2,
-        "buff_duration": 2
-      }
-    ],
     "techniques": [
-      "absword_cow",
-      "absword_annihilated",
       "absword_block",
       "absword_spin",
       "absword_impale",
@@ -425,40 +407,6 @@
       "absword_elbow",
       "absword_counter"
     ]
-  },
-  {
-    "id": "abknife_cow",
-    "type": "technique",
-    "name": "You Fight Like A Cow",
-    "melee_allowed": true,
-    "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "flat_bonuses": [
-      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
-      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
-    ],
-    "mult_bonuses": [ { "stat": "hit", "scale": 1.2 } ],
-    "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
-    "description": "Miss recovery"
-  },
-  {
-    "id": "abknife_annihilated",
-    "type": "technique",
-    "name": "Every Enemy Ive Met Ive Annihilated",
-    "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "skill_requirements": [ { "name": "stabbing", "level": 10 } ],
-    "flat_bonuses": [
-      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
-      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
-    ],
-    "mult_bonuses": [
-      { "stat": "damage", "type": "cut", "scale": 99 },
-      { "stat": "damage", "type": "stab", "scale": 99 },
-      { "stat": "arpen", "type": "cut", "scale": 99 },
-      { "stat": "arpen", "type": "stab", "scale": 99 },
-      { "stat": "hit", "scale": 99 }
-    ],
-    "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
-    "description": "High-level miss recovery - One Hit Kill"
   },
   {
     "id": "abknife_criticaljab",
