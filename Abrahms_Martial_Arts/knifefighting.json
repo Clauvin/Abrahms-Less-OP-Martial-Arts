@@ -21,7 +21,7 @@
         "mult_bonuses": [
           { "stat": "movecost", "scale": 0.9 },
           { "stat": "arpen", "type": "stab", "scale": 1.5 },
-          { "stat": "arpen", "type": "cut", "scale": 1.5 },
+          { "stat": "arpen", "type": "cut", "scale": 1.5 }
         ]
       },
       {
