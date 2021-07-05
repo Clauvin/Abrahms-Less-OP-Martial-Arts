@@ -384,6 +384,8 @@
       }
     ],
     "techniques": [
+	  "abknife_criticaljab",
+	  "abknife_criticalblow",
       "abknife_finisher",
       "abknife_slash",
       "abknife_stab",
