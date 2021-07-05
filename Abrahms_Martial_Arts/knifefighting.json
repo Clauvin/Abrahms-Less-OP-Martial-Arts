@@ -302,15 +302,14 @@
         "unarmed_allowed": true,
         "melee_allowed": true,
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
-        "bonus_dodges": 3,
+        "bonus_dodges": 1,
         "flat_bonuses": [
-          { "stat": "dodge", "scale": 2 },
-          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 },
-          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+          { "stat": "dodge", "scale": 0.2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 },
         ],
-        "mult_bonuses": [ { "stat": "dodge", "scale": 2 } ],
+        "mult_bonuses": [ { "stat": "dodge", "scale": 1.2 } ],
         "max_stacks": 5,
-        "buff_duration": 10
+        "buff_duration": 1
       }
     ],
     "ondodge_buffs": [
