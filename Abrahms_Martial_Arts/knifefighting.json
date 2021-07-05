@@ -284,15 +284,14 @@
       {
         "id": "buff_hitandrun_onhit",
         "name": "Hit and Run",
-        "description": "Every successful hit boosts your dodge for a short time.",
+        "description": "Hitting boosts your dodge for a short time.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
         "bonus_dodges": 3,
-        "flat_bonuses": [ { "stat": "dodge", "scale": 2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 } ],
-        "mult_bonuses": [ { "stat": "dodge", "scale": 2 } ],
-        "max_stacks": 10,
-        "buff_duration": 15
+        "flat_bonuses": [ { "stat": "dodge", "scale": 2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 } ],
+        "max_stacks": 1,
+        "buff_duration": 4
       }
     ],
     "onmove_buffs": [
